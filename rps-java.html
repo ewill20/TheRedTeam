@@ -31,7 +31,8 @@
       var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
       // Reworked our code from last step to use "else if" instead of lots of if statements.
-
+      console.log(userGuess + " was my guess");
+      console.log(computerGuess + " was computer guess");
       // This logic determines the outcome of the game (win/loss/tie), and increments the appropriate number
       if ((userGuess === "r") || (userGuess === "p") || (userGuess === "s")) {
 
